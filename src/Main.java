@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
-=======
 import java.util.Random;
 
 import java.util.Scanner;
@@ -45,7 +40,5 @@ public class Main {
             }
 
         }
-
->>>>>>> 4fa20a9 (Initial commit)
     }
 }
