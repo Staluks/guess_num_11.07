@@ -23,12 +23,9 @@ public class Main {
         while (guesses < maxGuesses) {
             System.out.println("Your guess:");
             int guessNum = scan.nextInt();
-
-            System.out.println(answerNum);
 //          kas notiek ja nepareizi ievada skaitli kurš nav norādītajā intervālā.
             if (guessNum > 10 || guessNum < 1) {
                 System.out.println("Wrong input");
-
             }
 //          kas notiek pēc nepareiza minējuma.
             else if (guessNum != answerNum + 1) {
